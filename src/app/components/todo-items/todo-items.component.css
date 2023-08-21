@@ -1,0 +1,26 @@
+
+.items{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;background-color: lightgray;
+    border-radius: 10px;   
+}
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

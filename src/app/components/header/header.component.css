@@ -1,0 +1,32 @@
+.header{
+    display:  flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #000;
+    color: white;
+    align-items: center;
+    min-height: 70px;
+    width: 100%;
+}
+.logo>span{
+    font-size:30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 50px 25px;
+    color: goldenrod;
+    padding: 30px 10px;
+}
+ .nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul>li{
+    margin-right: 30px;
+    list-style-type: none;
+    padding: 15px;
+    transition: 1s ease-in-out;
+    font-size: 20px;
+}
+li:hover{
+    color:red;
+}

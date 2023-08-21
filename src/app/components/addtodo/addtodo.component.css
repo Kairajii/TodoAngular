@@ -1,0 +1,32 @@
+h4{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    margin: 10px 0;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+}
+
+button{
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(169, 169, 180);
+    color: white;
+    cursor: pointer;
+}
